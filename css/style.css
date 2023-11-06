@@ -1,0 +1,144 @@
+.navbar-nav{
+    margin-left: auto;
+  }
+  
+  .PiePagina{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(42,59,70,1) 0%, rgba(13,27,46,1) 100%);
+  }
+  
+  .imagen{
+    filter: brightness(50%);
+  }
+  
+  .posicionJobs{
+    margin-left: 200px;
+  }
+  
+  .margenDerecho{
+    margin-right: 200px;
+  }
+  
+  .posicionBill{
+    margin-left: 27px;
+  }
+  
+  .parrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+  }
+  
+  .titulo{
+    text-align: left; 
+    font-weight: 600;
+  }
+  
+  .tituloPrincipal{
+    text-align: left;
+  }
+  
+  .JavaScript{
+      width: 65px;
+      height: 20px;
+      font-size: small;
+      font-weight: 700;
+  }
+  
+  .React{
+    width: 40px;
+    height: 20px;
+    font-size: small;
+    font-weight: 600;
+  }
+  
+  .Negocios{
+    width: 63px;
+    height: 20px;
+    font-size: small;
+    font-weight: 600;
+  }
+  
+  .Startups{
+    width: 55px;
+    height: 20px;
+    font-size: small;
+    font-weight: 600;
+  }
+  
+  .Enviar{
+    background-color:rgb(138, 210, 31);
+    font-weight: 600;
+    width: 43rem;
+    color: white;
+  }
+  
+  .Boton{
+    background-color:rgb(138, 210, 31);
+    color: white;
+  }
+  
+  u {    
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+  }
+  
+  .columna{
+    font-weight: 600;
+    width: 43rem;
+    color: white;
+  }
+  
+  .texto{
+    position: relative;
+    right: 18%;
+  }
+  
+  .cuadradoEstudiante {
+      width: 250px; 
+      height: 250px; 
+      top: 25px;
+      left: 90px;
+      right: 20px;
+      border: 2px solid lightblue;
+  }
+  
+  .cuadradoTrainee {
+    width: 250px; 
+    height: 250px;
+    top: 25px;
+    left: 95px; 
+    border: 2px solid lightblue;
+  }
+  
+  .cuadradoJunior {
+    width: 250px; 
+    height: 250px; 
+    top: 25px;
+    left: 100px; 
+    border: 2px solid orange;
+  }
+  
+  .venta { 
+    margin-top: 50px;
+  }
+  
+  .input{
+    width: 55.2rem; 
+    margin-left: 4rem;
+  }
+  
+  .tamaño{
+    width: 54.5rem; 
+    margin-left: 4.3rem;
+  }
+  
+  .tamañoBoton{
+    width: 26.8rem; 
+    margin-right: 1rem;
+    left: 6%;
+  }
+  
+  .tamañoLetra{
+    font-size: 20px;
+  }
+  

@@ -1,0 +1,133 @@
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src="img/codoacodo.png" width="90" height="50" class="img-responsive"/>
+            <div class="container-fluid">
+                <small>
+                    <p class="navbar-brand my-lg-0" href="#">Conf Bs As</p>
+                </small>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link" href="Index.html">La conferencia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Los oradores</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">El lugar y la fecha</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: white;" href="#">Conviertete en orador</a>
+                            </li>
+                            <li class="nav-item" >
+                                <a class="nav-link text-success" href="#">Comprar tickets</a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+    </nav>
+
+    <div class="container">
+        <div class="row" style="text-align:center">
+          <div class="col-3 cuadradoEstudiante">
+            <h4 style="margin-top: 8%">Estudiante</h4>
+            <p class="tamañoLetra"> Tienen un descuento</p>
+            <h4 style="margin-top: 15%">80%</h4>
+            <p class="card-text text-muted" style="margin-top: 15%">* Presentar documentación</p>
+          </div>
+          <div class="col-3 cuadradoTrainee">
+            <h4 style="margin-top: 8%">Trainee</h4>
+            <p class="tamañoLetra"> Tienen un descuento</p>
+            <h4 style="margin-top: 15%">50%</h4>
+            <p class="card-text text-muted" style="margin-top: 15%">* Presentar documentación</p>
+          </div>
+          <div class="col-3 cuadradoJunior">
+            <h4 style="margin-top: 8%">Junior</h4>
+            <p class="tamañoLetra"> Tienen un descuento</p>
+            <h4 style="margin-top: 15%">15%</h4>
+            <p class="card-text text-muted" style="margin-top: 15%">* Presentar documentación</p>
+          </div>
+        </div>
+
+        <div class = "venta" style="text-align:center">
+            <p class = "venta" >VENTA</p>
+            <h1>VALOR DE TICKET: $200</h1>
+        </div>
+
+        <form>
+            <div class="form-row input">
+              <div class="form-group col">
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Nombre">
+              </div>
+              <div class="form-group col">
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Apellido">
+              </div>
+            </div>
+            <div class="form-group tamaño">
+              <input type="text" class="form-control" id="inputAddress" placeholder="Correo">
+            </div>
+            <div class="form-row input">
+              <div class="form-group col">
+                <label for="cantidad">Cantidad</label>
+                <input type="number" class="form-control" id="cantidad" placeholder="Cantidad">
+              </div>
+              <div class="form-group col">
+                <label for="categoria">Categoria</label>
+                <select id="categoria" class="form-control">
+                  <option selected>Seleccionar</option>
+                  <option>Estudiante</option>
+                  <option>Trainee</option>
+                  <option>Junior</option>
+                </select>
+              </div>
+            </div>
+            <div>
+                <button type="button" class="btn boton btn-lg tamañoBoton col" onclick=borrarValor()>Borrar</button>
+                <button type="button" class="btn boton btn-lg tamañoBoton col" onclick=sumarTickets()>Resumen</button>
+            </div>
+        </form>
+
+        <div class="alert alert-primary tamaño" id="totalPago" role="alert">
+            Total a pagar $
+        </div>
+
+    </div>
+    
+    <div class="PiePagina mb-2">
+        <nav class="navbar navbar-expand-lg navbar-teal bg-teal" >
+            <div id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto" >
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Preguntas frecuentes<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contáctanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Prensa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Conferencias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Términos y condiciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Privacidad</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Estudiantes</a>
+                        </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <script src="js/categoria.js"></script>
+
+</body>
